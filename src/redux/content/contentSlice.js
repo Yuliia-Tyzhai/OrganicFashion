@@ -4,6 +4,17 @@ const initialState = {
   header: {
     logoText: 'Altanschool Web Courses',
   },
+
+  navigation: {
+    links: [
+      { id: 'home', text: 'Home', path: '/' },
+      { id: 'about', text: 'About', path: '/about' },
+      { id: 'shop', text: 'Shop', path: '/shop' },
+      { id: 'newCollection', text: 'Blog', path: '/new-collection' },
+      { id: 'followUs', text: 'Contact', path: '/follow-us' },
+    ],
+  },
+
   home: {
     title: 'Organic Fashion',
     description:
