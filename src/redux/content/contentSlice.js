@@ -47,7 +47,7 @@ const initialState = {
         },
         largeDesktop: {
           x1: '/src/assets/images/desk2/home-desk2-img-min.png',
-          x2: '/src/assets/images/deak2/home-desk2-img@2x-min.png',
+          x2: '/src/assets/images/desk2/home-desk2-img@2x-min.png',
         },
       },
     },
