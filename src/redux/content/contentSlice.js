@@ -214,6 +214,36 @@ const initialState = {
       },
     },
   },
+  followUs: {
+    title: 'Follow Us',
+    form: {
+      inputs: [
+        { id: 'name', placeholder: 'Enter your name', value: '' },
+        { id: 'email', placeholder: 'Enter a valid email address', value: '' },
+        { id: 'message', placeholder: 'Enter your message', value: '' },
+      ],
+    },
+    backgroundImages: {
+      followUsBg: {
+        mobile: {
+          x1: '/src/assets/images/mob/follow-us-mob@1x.jpg',
+          x2: '/src/assets/images/mob/follow-us-mob@2x.jpg',
+        },
+        tablet: {
+          x1: '/src/assets/images/tab/follow-us-tab@1x.jpg',
+          x2: '/src/assets/images/tab/follow-us-tab@2x.jpg',
+        },
+        desktop: {
+          x1: '/src/assets/images/desk1/follow-us-desk1@1x.jpg',
+          x2: '/src/assets/images/desk1/follow-us-desk1@2x.jpg',
+        },
+        largeDesktop: {
+          x1: '/src/assets/images/desk2/follow-us-desk2@1x.jpg',
+          x2: '/src/assets/images/desk2/follow-us-desk2@2x.jpg',
+        },
+      },
+    },
+  },
 };
 
 const contentSlice = createSlice({
