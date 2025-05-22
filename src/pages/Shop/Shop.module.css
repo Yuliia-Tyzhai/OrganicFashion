@@ -1,5 +1,17 @@
 .shop {
   background-color: #ffffff;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.title {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .imageGrid {
@@ -25,4 +37,31 @@
 .imageContainer:nth-child(5) .image {
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 32px;
+    width: 300px;
+    margin: 0 auto 40px auto;
+  }
+
+  .imageGrid {
+    gap: 11px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .title {
+    width: 425px;
+    margin: 0 auto 88px auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .title {
+    font-size: 48px;
+    width: 600px;
+    white-space: nowrap;
+  }
 }
