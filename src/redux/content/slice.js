@@ -34,20 +34,20 @@ const initialState = {
     backgroundImages: {
       hero: {
         mobile: {
-          x1: '/src/assets/images/mob/home-mob-img-min.png',
-          x2: '/src/assets/images/mob/home-mob-img@2x-min.png',
+          x1: '/images/mob/home-mob-img-min.png',
+          x2: '/images/mob/home-mob-img@2x-min.png',
         },
         tablet: {
-          x1: '/src/assets/images/tab/home-tab-img-min.png',
-          x2: '/src/assets/images/tab/home-tab-img@2x-min.png',
+          x1: '/images/tab/home-tab-img-min.png',
+          x2: '/images/tab/home-tab-img@2x-min.png',
         },
         desktop: {
-          x1: '/src/assets/images/desk1/home-desk1-img-min.png',
-          x2: '/src/assets/images/desk1/home-desk1-img@2x-min.png',
+          x1: '/images/desk1/home-desk1-img-min.png',
+          x2: '/images/desk1/home-desk1-img@2x-min.png',
         },
         largeDesktop: {
-          x1: '/src/assets/images/desk2/home-desk2-img-min.png',
-          x2: '/src/assets/images/desk2/home-desk2-img@2x-min.png',
+          x1: '/images/desk2/home-desk2-img-min.png',
+          x2: '/images/desk2/home-desk2-img@2x-min.png',
         },
       },
     },
