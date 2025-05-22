@@ -1,0 +1,22 @@
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ✅ Три колонки на мобілці */
+  gap: 10px;
+  justify-content: center;
+}
+
+/* ✅ Робимо зображення адаптивними */
+.image {
+  border-radius: 170px 170px 0 0;
+
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 🔹 Адаптивність */
+@media (max-width: 768px) {
+  .imageGrid {
+    grid-template-columns: repeat(3, 1fr); /* ✅ Три колонки на мобільних */
+  }
+}
