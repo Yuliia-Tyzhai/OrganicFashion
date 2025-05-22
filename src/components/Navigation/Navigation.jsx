@@ -1,11 +1,24 @@
 import React from 'react';
-import './Navigation.module.css';
+import { useSelector } from 'react-redux';
+import { selectNavigation } from '../../redux/content/selectors';
+import { Link } from 'react-router-dom';
+import styles from './Navigation.module.css';
 
-const Navigation = () => {
+const Navigation = ({ isMobile, closeMenu }) => {
+  const links = useSelector(selectNavigation);
+
   return (
-    <div>
-      <h2>Navigation</h2>
-    </div>
+    <nav className={isMobile ? styles.mobileNav : styles.desktopNav}>
+      {links.map(link => (
+        <Link
+          key={link.id}
+          to={link.path}
+          onClick={isMobile ? closeMenu : undefined}
+        >
+          {link.text}
+        </Link>
+      ))}
+    </nav>
   );
 };
 

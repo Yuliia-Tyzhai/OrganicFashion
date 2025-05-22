@@ -1,0 +1,102 @@
+.container {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  min-width: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 43px;
+  padding: 17px 16px;
+  background-color: #ffffff;
+  position: fixed;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.desktopNav {
+  display: none;
+}
+
+.burgerButton {
+  display: block;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.burgerButton img {
+  width: 63px;
+  height: 47px;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobileMenu.open {
+  transform: translateX(0);
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.closeButton img {
+  width: 48px;
+  height: 48px;
+}
+
+.closeButton:hover img {
+  filter: invert(30%);
+}
+
+@media (min-width: 992px) {
+  .header {
+    min-width: 992px;
+    padding: 45px 88px;
+    background-color: #ffffff;
+  }
+
+  .desktopNav {
+    display: flex;
+  }
+
+  .burgerButton {
+    display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1920px) {
+  .logo {
+    font-size: 36px;
+  }
+}
