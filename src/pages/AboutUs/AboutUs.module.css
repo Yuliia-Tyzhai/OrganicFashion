@@ -1,0 +1,52 @@
+.aboutUs {
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.imageContainer {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.loadMoreBtn {
+  display: inline-block;
+  border: 5px solid #8e9a82;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  color: #000000;
+  padding: 14px 19px;
+}
+
+.loadMore:hover {
+  background-color: #555;
+}

@@ -8,7 +8,6 @@
 /* ✅ Робимо зображення адаптивними */
 .image {
   border-radius: 170px 170px 0 0;
-
   width: 100%;
   height: auto;
   display: block;

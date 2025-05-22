@@ -19,7 +19,7 @@ function App() {
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/new-collection" element={<NewCollection />} />
           <Route path="/follow-us" element={<FollowUs />} />
