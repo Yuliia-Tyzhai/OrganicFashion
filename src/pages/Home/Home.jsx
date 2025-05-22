@@ -9,14 +9,6 @@ const Home = () => {
 
   return (
     <section className={styles.home}>
-      <div className={styles.content}>
-        <h1 className={styles.title}>{homeData.title}</h1>
-        <p className={styles.description}>{homeData.description}</p>
-        <Link to="/shop" className={styles.shopButton}>
-          Shop Now
-        </Link>
-      </div>
-
       <picture>
         <source
           srcSet={`${homeData.backgroundImages.hero.largeDesktop.x1} 1x, ${homeData.backgroundImages.hero.largeDesktop.x2} 2x`}
@@ -40,6 +32,14 @@ const Home = () => {
           className={styles.heroImage}
         />
       </picture>
+
+      <div className={styles.content}>
+        <h1 className={styles.title}>{homeData.title}</h1>
+        <p className={styles.description}>{homeData.description}</p>
+        <Link to="/shop" className={styles.shopButton}>
+          Shop Now
+        </Link>
+      </div>
     </section>
   );
 };

@@ -5,7 +5,6 @@
   display: flex;
   /* align-items: center;
   justify-content: center; */
-  text-align: center;
   padding: 50px 20px;
 }
 
@@ -34,17 +33,16 @@
   white-space: nowrap;
   margin: 0 auto;
   margin-top: 34px;
+  margin-bottom: 17px;
 }
 
 .description {
   width: 166px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;
   font-weight: 400;
-  font-size: 14px;
   color: #000000;
   text-align: start;
-  margin-top: 17px;
 }
 
 .shopButton {
@@ -57,4 +55,40 @@
   color: #fff;
   text-transform: uppercase;
   margin-right: 191px;
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    padding: 50px 20px;
+  }
+
+  .heroImage {
+    left: 0;
+    width: 320px;
+    height: 330px;
+    object-fit: cover;
+    margin-top: 147px;
+  }
+
+  .content {
+    margin-left: 397px;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-top: 117px;
+    margin-bottom: 8px;
+  }
+
+  .description {
+    width: 418px;
+    font-size: 20px;
+    margin-bottom: 31px;
+  }
+
+  .shopButton {
+    border-radius: 59px;
+    padding: 8px 45px;
+    font-size: 20px;
+  }
 }
