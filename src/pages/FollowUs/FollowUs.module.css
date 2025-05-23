@@ -37,12 +37,16 @@
   border: 5px solid #8e9a82;
   border-radius: 10px;
   width: 257px;
-  height: 81px;
   background-color: transparent;
 }
 
 .input:not(:last-child) {
   margin-bottom: 9px;
+  height: 81px;
+}
+
+form .input:last-child {
+  height: 130px;
 }
 
 .submitButton {
@@ -55,22 +59,74 @@
   text-align: center;
   color: #ffffff;
   margin-top: 41px;
+  text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
   .followUs {
     background: linear-gradient(to right, #f1f1f1 75%, #dbdbdb 25%);
+    height: auto;
   }
 
   .title {
+    text-align: start;
     font-size: 32px;
     margin-bottom: 25px;
+  }
+
+  .input {
+    width: 436px;
+  }
+
+  .formContainer {
+    max-width: 436px;
+    text-align: left;
+    margin-right: 470px;
+  }
+
+  .backgroundImage {
+    height: auto;
+    top: 50%;
+    left: 75%;
+  }
+
+  .submitButton {
+    font-size: 20px;
+    margin-top: 31px;
+    width: 436px;
   }
 }
 
 @media (min-width: 1366px) {
+  .followUs {
+    height: 833px;
+  }
+
   .title {
     margin-bottom: 33px;
+  }
+
+  .input {
+    width: 561px;
+  }
+
+  .formContainer {
+    max-width: 561px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 651px;
+  }
+
+  .backgroundImage {
+    height: auto;
+    top: 42%;
+    left: 75%;
+  }
+
+  .submitButton {
+    margin-top: 41px;
+    width: 205px;
+    padding: 17px 59px;
   }
 }
 
@@ -78,5 +134,34 @@
   .title {
     font-size: 48px;
     margin-bottom: 62px;
+  }
+
+  .followUs {
+    height: 1195px;
+  }
+
+  .title {
+    margin-bottom: 33px;
+  }
+
+  .input {
+    width: 617px;
+    height: 121px;
+  }
+
+  .formContainer {
+    max-width: 617px;
+    margin-left: 200px;
+    margin-right: 1027px;
+  }
+
+  .backgroundImage {
+    top: 42%;
+    left: 75%;
+  }
+
+  .submitButton {
+    margin-top: 36px;
+    width: 371px;
   }
 }
