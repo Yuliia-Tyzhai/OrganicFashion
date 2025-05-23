@@ -1,5 +1,4 @@
 .aboutUs {
-  min-width: 375px;
   position: relative;
   text-align: center;
   padding: 30px 20px;
@@ -86,7 +85,6 @@
 
 @media (min-width: 992px) {
   .aboutUs {
-    min-width: 992px;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -161,7 +159,6 @@
 
 @media (min-width: 1366px) {
   .aboutUs {
-    min-width: 1366px;
     gap: 80px;
   }
 
@@ -172,7 +169,6 @@
 
 @media (min-width: 1920px) {
   .aboutUs {
-    min-width: 1920px;
     gap: 140px;
   }
 
