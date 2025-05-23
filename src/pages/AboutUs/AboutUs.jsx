@@ -8,10 +8,6 @@ const AboutUs = () => {
 
   return (
     <section className={styles.aboutUs}>
-      <h2 className={styles.title}>{aboutUsData.title}</h2>
-
-      <p className={styles.description}>{aboutUsData.descriptionFirst}</p>
-
       <div className={styles.imageContainer}>
         <picture>
           <source
@@ -38,9 +34,16 @@ const AboutUs = () => {
         </picture>
       </div>
 
-      <p className={styles.description}>{aboutUsData.descriptionSecond}</p>
-
-      <button className={styles.loadMoreBtn}>Learn More</button>
+      <div className={styles.textContainer}>
+        <h2 className={styles.title}>{aboutUsData.title}</h2>
+        <p className={styles.description} data-order="first">
+          {aboutUsData.descriptionFirst}
+        </p>
+        <p className={styles.description} data-order="second">
+          {aboutUsData.descriptionSecond}
+        </p>
+        <button className={styles.loadMoreBtn}>Learn More</button>
+      </div>
     </section>
   );
 };

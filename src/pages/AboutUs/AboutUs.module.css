@@ -1,10 +1,36 @@
 .aboutUs {
+  min-width: 375px;
+  position: relative;
   text-align: center;
-  padding: 50px 20px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #000000;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #faf9f8;
+}
+
+.imageContainer {
+  height: auto;
+  order: 3;
+}
+
+.image {
+  position: absolute;
+  top: 41%;
+  left: 34%;
+  max-width: 100%;
+  height: auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  order: 1;
 }
 
 .title {
@@ -14,18 +40,28 @@
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 20px;
+  text-align: center;
+  order: 1;
 }
 
 .description {
   font-size: 18px;
   line-height: 1.6;
+  text-align: center;
   margin-bottom: 20px;
-  max-width: 600px;
 }
 
-.image {
-  max-width: 100%;
-  height: auto;
+.description[data-order='first'] {
+  margin-bottom: 316px;
+  order: 2;
+}
+
+.description[data-order='first'] {
+  order: 2;
+}
+
+.description[data-order='second'] {
+  order: 4;
 }
 
 .loadMoreBtn {
@@ -40,51 +76,120 @@
   letter-spacing: 0.15em;
   color: #000000;
   padding: 14px 19px;
+  background-color: transparent;
+  order: 5;
 }
 
-.loadMore:hover {
-  background-color: #555;
+.loadMoreBtn:hover {
+  background-color: #d1d1d1;
 }
 
 @media (min-width: 992px) {
   .aboutUs {
-    display: flex;
-    flex-direction: row; /* ✅ Зображення зліва, контент справа */
-    align-items: center;
-    justify-content: space-between; /* ✅ Рівномірне розташування */
-    gap: 50px; /* ✅ Відступ між зображенням і контентом */
+    min-width: 992px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: left;
   }
 
   .imageContainer {
-    flex: 1; /* ✅ Зображення займає половину простору */
+    width: 50%;
     max-width: 50%;
+    height: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+    order: 1;
   }
 
   .image {
+    position: static;
     width: 100%;
     height: auto;
+    object-fit: contain;
   }
 
-  .content {
-    flex: 1; /* ✅ Контент займає половину простору */
-    display: flex;
+  .textContainer {
     flex-direction: column;
-    align-items: flex-start; /* ✅ Вирівнюємо текст ліворуч */
-    max-width: 600px;
+    align-items: flex-start;
+    flex: 0 0 50%;
+    max-width: 50%;
+    order: 2;
   }
 
   .title {
     font-size: 32px;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    width: 100%;
+    order: 0;
   }
 
   .description {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    max-width: none;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .description[data-order='first'] {
+    margin-bottom: 24px;
+  }
+
+  .description[data-order='first'] {
+    order: 0;
+  }
+
+  .description[data-order='second'] {
+    order: 0;
   }
 
   .loadMoreBtn {
-    padding: 14px 19px;
+    align-self: flex-start;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    order: 0;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .aboutUs {
+    min-width: 1366px;
+    gap: 80px;
+  }
+
+  .description[data-order='first'] {
+    margin-bottom: 31px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .aboutUs {
+    min-width: 1920px;
+    gap: 140px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 36px;
+  }
+
+  .description[data-order='first'] {
+    margin-bottom: 12px;
+  }
+
+  .loadMoreBtn {
+    font-size: 36px;
+    margin-top: 82px;
   }
 }
