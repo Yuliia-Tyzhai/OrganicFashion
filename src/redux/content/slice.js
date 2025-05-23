@@ -34,20 +34,20 @@ const initialState = {
     backgroundImages: {
       hero: {
         mobile: {
-          x1: '/src/assets/images/mob/home-mob-img-min.png',
-          x2: '/src/assets/images/mob/home-mob-img@2x-min.png',
+          x1: '/assets/images/mob/home-mob-img-min.png',
+          x2: '/assets/images/mob/home-mob-img@2x-min.png',
         },
         tablet: {
-          x1: '/src/assets/images/tab/home-tab-img-min.png',
-          x2: '/src/assets/images/tab/home-tab-img@2x-min.png',
+          x1: '/assets/images/tab/home-tab-img-min.png',
+          x2: '/assets/images/tab/home-tab-img@2x-min.png',
         },
         desktop: {
-          x1: '/src/assets/images/desk1/home-desk1-img-min.png',
-          x2: '/src/assets/images/desk1/home-desk1-img@2x-min.png',
+          x1: '/assets/images/desk1/home-desk1-img-min.png',
+          x2: '/assets/images/desk1/home-desk1-img@2x-min.png',
         },
         largeDesktop: {
-          x1: '/src/assets/images/desk2/home-desk2-img-min.png',
-          x2: '/src/assets/images/desk2/home-desk2-img@2x-min.png',
+          x1: '/assets/images/desk2/home-desk2-img-min.png',
+          x2: '/assets/images/desk2/home-desk2-img@2x-min.png',
         },
       },
     },
@@ -59,92 +59,92 @@ const initialState = {
       items: [
         {
           mobile: {
-            x1: '/src/assets/images/mob/shop-mob-img-1-min.png',
-            x2: '/src/assets/images/mob/shop-mob-img-1@2x-min.png',
+            x1: '/assets/images/mob/shop-mob-img-1-min.png',
+            x2: '/assets/images/mob/shop-mob-img-1@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/shop-tab-img-1-min.png',
-            x2: '/src/assets/images/tab/shop-tab-img-1@2x-min.png',
+            x1: '/assets/images/tab/shop-tab-img-1-min.png',
+            x2: '/assets/images/tab/shop-tab-img-1@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/shop-desk1-img-1-min.png',
-            x2: '/src/assets/images/desk1/shop-desk1-img-1@2x-min.png',
+            x1: '/assets/images/desk1/shop-desk1-img-1-min.png',
+            x2: '/assets/images/desk1/shop-desk1-img-1@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/shop-desk2-img-1-min.png',
-            x2: '/src/assets/images/desk2/shop-desk2-img-1@2x-min.png',
+            x1: '/assets/images/desk2/shop-desk2-img-1-min.png',
+            x2: '/assets/images/desk2/shop-desk2-img-1@2x-min.png',
           },
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/shop-mob-img-2-min.png',
-            x2: '/src/assets/images/mob/shop-mob-img-2@2x-min.png',
+            x1: '/assets/images/mob/shop-mob-img-2-min.png',
+            x2: '/assets/images/mob/shop-mob-img-2@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/shop-tab-img-2-min.png',
-            x2: '/src/assets/images/tab/shop-tab-img-2@2x-min.png',
+            x1: '/assets/images/tab/shop-tab-img-2-min.png',
+            x2: '/assets/images/tab/shop-tab-img-2@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/shop-desk1-img-2-min.png',
-            x2: '/src/assets/images/desk1/shop-desk1-img-2@2x-min.png',
+            x1: '/assets/images/desk1/shop-desk1-img-2-min.png',
+            x2: '/assets/images/desk1/shop-desk1-img-2@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/shop-desk2-img-2-min.png',
-            x2: '/src/assets/images/desk2/shop-desk2-img-2@2x-min.png',
+            x1: '/assets/images/desk2/shop-desk2-img-2-min.png',
+            x2: '/assets/images/desk2/shop-desk2-img-2@2x-min.png',
           },
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/shop-mob-img-3-min.png',
-            x2: '/src/assets/images/mob/shop-mob-img-3@2x-min.png',
+            x1: '/assets/images/mob/shop-mob-img-3-min.png',
+            x2: '/assets/images/mob/shop-mob-img-3@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/shop-tab-img-3-min.png',
-            x2: '/src/assets/images/tab/shop-tab-img-3@2x-min.png',
+            x1: '/assets/images/tab/shop-tab-img-3-min.png',
+            x2: '/assets/images/tab/shop-tab-img-3@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/shop-desk1-img-3-min.png',
-            x2: '/src/assets/images/desk1/shop-desk1-img-3@2x-min.png',
+            x1: '/assets/images/desk1/shop-desk1-img-3-min.png',
+            x2: '/assets/images/desk1/shop-desk1-img-3@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/shop-desk2-img-3-min.png',
-            x2: '/src/assets/images/desk2/shop-desk2-img-3@2x-min.png',
+            x1: '/assets/images/desk2/shop-desk2-img-3-min.png',
+            x2: '/assets/images/desk2/shop-desk2-img-3@2x-min.png',
           },
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/shop-mob-img-4-min.png',
-            x2: '/src/assets/images/mob/shop-mob-img-4@2x-min.png',
+            x1: '/assets/images/mob/shop-mob-img-4-min.png',
+            x2: '/assets/images/mob/shop-mob-img-4@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/shop-tab-img-4-min.png',
-            x2: '/src/assets/images/tab/shop-tab-img-4@2x-min.png',
+            x1: '/assets/images/tab/shop-tab-img-4-min.png',
+            x2: '/assets/images/tab/shop-tab-img-4@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/shop-desk1-img-4-min.png',
-            x2: '/src/assets/images/desk1/shop-desk1-img-4@2x-min.png',
+            x1: '/assets/images/desk1/shop-desk1-img-4-min.png',
+            x2: '/assets/images/desk1/shop-desk1-img-4@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/shop-desk2-img-4-min.png',
-            x2: '/src/assets/images/desk2/shop-desk2-img-4@2x-min.png',
+            x1: '/assets/images/desk2/shop-desk2-img-4-min.png',
+            x2: '/assets/images/desk2/shop-desk2-img-4@2x-min.png',
           },
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/shop-mob-img-5-min.png',
-            x2: '/src/assets/images/mob/shop-mob-img-5@2x-min.png',
+            x1: '/assets/images/mob/shop-mob-img-5-min.png',
+            x2: '/assets/images/mob/shop-mob-img-5@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/shop-tab-img-5-min.png',
-            x2: '/src/assets/images/tab/shop-tab-img-5@2x-min.png',
+            x1: '/assets/images/tab/shop-tab-img-5-min.png',
+            x2: '/assets/images/tab/shop-tab-img-5@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/shop-desk1-img-5-min.png',
-            x2: '/src/assets/images/desk1/shop-desk1-img-5@2x-min.png',
+            x1: '/assets/images/desk1/shop-desk1-img-5-min.png',
+            x2: '/assets/images/desk1/shop-desk1-img-5@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/shop-desk2-img-5-min.png',
-            x2: '/src/assets/images/desk2/shop-desk2-img-5@2x-min.png',
+            x1: '/assets/images/desk2/shop-desk2-img-5-min.png',
+            x2: '/assets/images/desk2/shop-desk2-img-5@2x-min.png',
           },
         },
       ],
@@ -157,38 +157,38 @@ const initialState = {
       items: [
         {
           mobile: {
-            x1: '/src/assets/images/mob/blog-mob-img-1-min.png',
-            x2: '/src/assets/images/mob/blog-mob-img-1@2x-min.png',
+            x1: '/assets/images/mob/blog-mob-img-1-min.png',
+            x2: '/assets/images/mob/blog-mob-img-1@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/blog-tab-img-1-min.png',
-            x2: '/src/assets/images/tab/blog-tab-img-1@2x-min.png',
+            x1: '/assets/images/tab/blog-tab-img-1-min.png',
+            x2: '/assets/images/tab/blog-tab-img-1@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/blog-desk1-img-1-min.png',
-            x2: '/src/assets/images/desk1/blog-desk1-img-1@2x-min.png',
+            x1: '/assets/images/desk1/blog-desk1-img-1-min.png',
+            x2: '/assets/images/desk1/blog-desk1-img-1@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/blog-desk2-img-1-min.png',
-            x2: '/src/assets/images/desk2/blog-desk2-img-1@2x-min.png',
+            x1: '/assets/images/desk2/blog-desk2-img-1-min.png',
+            x2: '/assets/images/desk2/blog-desk2-img-1@2x-min.png',
           },
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/blog-mob-img-2-min.png',
-            x2: '/src/assets/images/mob/blog-mob-img-2@2x-min.png',
+            x1: '/assets/images/mob/blog-mob-img-2-min.png',
+            x2: '/assets/images/mob/blog-mob-img-2@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/blog-tab-img-2-min.png',
-            x2: '/src/assets/images/tab/blog-tab-img-2@2x-min.png',
+            x1: '/assets/images/tab/blog-tab-img-2-min.png',
+            x2: '/assets/images/tab/blog-tab-img-2@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/blog-desk1-img-2-min.png',
-            x2: '/src/assets/images/desk1/blog-desk1-img-2@2x-min.png',
+            x1: '/assets/images/desk1/blog-desk1-img-2-min.png',
+            x2: '/assets/images/desk1/blog-desk1-img-2@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/blog-desk2-img-2-min.png',
-            x2: '/src/assets/images/desk2/blog-desk2-img-2@2x-min.png',
+            x1: '/assets/images/desk2/blog-desk2-img-2-min.png',
+            x2: '/assets/images/desk2/blog-desk2-img-2@2x-min.png',
           },
         },
         {
@@ -197,16 +197,16 @@ const initialState = {
             x2: '/src/assets/images/mob/blog-mob-img-3@2x-min.png',
           },
           tablet: {
-            x1: '/src/assets/images/tab/blog-tab-img-3-min.png',
-            x2: '/src/assets/images/tab/blog-tab-img-3@2x-min.png',
+            x1: '/assets/images/tab/blog-tab-img-3-min.png',
+            x2: '/assets/images/tab/blog-tab-img-3@2x-min.png',
           },
           desktop: {
-            x1: '/src/assets/images/desk1/blog-desk1-img-3-min.png',
-            x2: '/src/assets/images/desk1/blog-desk1-img-3@2x-min.png',
+            x1: '/assets/images/desk1/blog-desk1-img-3-min.png',
+            x2: '/assets/images/desk1/blog-desk1-img-3@2x-min.png',
           },
           largeDesktop: {
-            x1: '/src/assets/images/desk2/blog-desk2-img-3-min.png',
-            x2: '/src/assets/images/desk2/blog-desk2-img-3@2x-min.png',
+            x1: '/assets/images/desk2/blog-desk2-img-3-min.png',
+            x2: '/assets/images/desk2/blog-desk2-img-3@2x-min.png',
           },
         },
       ],
@@ -224,20 +224,20 @@ const initialState = {
     backgroundImages: {
       aboutBg: {
         mobile: {
-          x1: '/src/assets/images/mob/about-us-mob-img-min.png',
-          x2: '/src/assets/images/mob/about-us-mob-img@2x-min.png',
+          x1: '/assets/images/mob/about-us-mob-img-min.png',
+          x2: '/assets/images/mob/about-us-mob-img@2x-min.png',
         },
         tablet: {
-          x1: '/src/assets/images/tab/about-us-tab-img-min.png',
-          x2: '/src/assets/images/tab/about-us-tab-img@2x-min.png',
+          x1: '/assets/images/tab/about-us-tab-img-min.png',
+          x2: '/assets/images/tab/about-us-tab-img@2x-min.png',
         },
         desktop: {
-          x1: '/src/assets/images/desk1/about-us-desk1-img-min.png',
-          x2: '/src/assets/images/desk1/about-us-desk1-img@2x-min.png',
+          x1: '/assets/images/desk1/about-us-desk1-img-min.png',
+          x2: '/assets/images/desk1/about-us-desk1-img@2x-min.png',
         },
         largeDesktop: {
-          x1: '/src/assets/images/desk2/about-us-desk2-img-min.png',
-          x2: '/src/assets/images/deak2/about-us-desk2-img@2x-min.png',
+          x1: '/assets/images/desk2/about-us-desk2-img-min.png',
+          x2: '/assets/images/desk2/about-us-desk2-img@2x-min.png',
         },
       },
     },
@@ -255,20 +255,20 @@ const initialState = {
     backgroundImages: {
       followUsBg: {
         mobile: {
-          x1: '/src/assets/images/mob/contact-mob-img-min.png',
-          x2: '/src/assets/images/mob/contact-mob-img@2x-min.png',
+          x1: '/assets/images/mob/contact-mob-img-min.png',
+          x2: '/assets/images/mob/contact-mob-img@2x-min.png',
         },
         tablet: {
-          x1: '/src/assets/images/tab/contact-tab-img-min.png',
-          x2: '/src/assets/images/tab/contact-tab-img@2x-min.png',
+          x1: '/assets/images/tab/contact-tab-img-min.png',
+          x2: '/assets/images/tab/contact-tab-img@2x-min.png',
         },
         desktop: {
-          x1: '/src/assets/images/desk1/contact-desk1-img-min.png',
-          x2: '/src/assets/images/desk1/contact-desk1-img@2x-min.png',
+          x1: '/assets/images/desk1/contact-desk1-img-min.png',
+          x2: '/assets/images/desk1/contact-desk1-img@2x-min.png',
         },
         largeDesktop: {
-          x1: '/src/assets/images/desk2/contact-desk2-img-min.png',
-          x2: '/src/assets/images/desk2/contact-desk2-img@2x-min.png',
+          x1: '/assets/images/desk2/contact-desk2-img-min.png',
+          x2: '/assets/images/desk2/contact-desk2-img@2x-min.png',
         },
       },
     },

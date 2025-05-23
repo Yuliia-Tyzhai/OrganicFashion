@@ -23,11 +23,6 @@
   max-width: 600px;
 }
 
-.imageContainer {
-  max-width: 500px;
-  margin: 20px auto;
-}
-
 .image {
   max-width: 100%;
   height: auto;
@@ -49,4 +44,47 @@
 
 .loadMore:hover {
   background-color: #555;
+}
+
+@media (min-width: 992px) {
+  .aboutUs {
+    display: flex;
+    flex-direction: row; /* ✅ Зображення зліва, контент справа */
+    align-items: center;
+    justify-content: space-between; /* ✅ Рівномірне розташування */
+    gap: 50px; /* ✅ Відступ між зображенням і контентом */
+  }
+
+  .imageContainer {
+    flex: 1; /* ✅ Зображення займає половину простору */
+    max-width: 50%;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    flex: 1; /* ✅ Контент займає половину простору */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* ✅ Вирівнюємо текст ліворуч */
+    max-width: 600px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .loadMoreBtn {
+    padding: 14px 19px;
+  }
 }
