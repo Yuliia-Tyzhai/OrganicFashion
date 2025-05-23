@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import Navigation from '../Navigation/Navigation';
 
-const burgerIcon = '/public/icons/burger-icon.svg';
-const closeIcon = '/public/icons/close-icon.svg';
+const burgerIcon = '/public/assets/icons/burger-icon.svg';
+const closeIcon = '/public/assets/icons/close-icon.svg';
 
 const Header = () => {
   const logoText = useSelector(selectHeader);
