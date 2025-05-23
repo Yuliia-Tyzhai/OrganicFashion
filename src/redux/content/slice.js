@@ -255,20 +255,20 @@ const initialState = {
     backgroundImages: {
       followUsBg: {
         mobile: {
-          x1: '/src/assets/images/mob/follow-us-mob@1x.jpg',
-          x2: '/src/assets/images/mob/follow-us-mob@2x.jpg',
+          x1: '/src/assets/images/mob/contact-mob-img-min.png',
+          x2: '/src/assets/images/mob/contact-mob-img@2x-min.png',
         },
         tablet: {
-          x1: '/src/assets/images/tab/follow-us-tab@1x.jpg',
-          x2: '/src/assets/images/tab/follow-us-tab@2x.jpg',
+          x1: '/src/assets/images/tab/contact-tab-img-min.png',
+          x2: '/src/assets/images/tab/contact-tab-img@2x-min.png',
         },
         desktop: {
-          x1: '/src/assets/images/desk1/follow-us-desk1@1x.jpg',
-          x2: '/src/assets/images/desk1/follow-us-desk1@2x.jpg',
+          x1: '/src/assets/images/desk1/contact-desk1-img-min.png',
+          x2: '/src/assets/images/desk1/contact-desk1-img@2x-min.png',
         },
         largeDesktop: {
-          x1: '/src/assets/images/desk2/follow-us-desk2@1x.jpg',
-          x2: '/src/assets/images/desk2/follow-us-desk2@2x.jpg',
+          x1: '/src/assets/images/desk2/contact-desk2-img-min.png',
+          x2: '/src/assets/images/desk2/contact-desk2-img@2x-min.png',
         },
       },
     },

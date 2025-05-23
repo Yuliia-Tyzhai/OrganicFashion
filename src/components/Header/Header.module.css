@@ -1,12 +1,15 @@
 .header {
   width: 100%;
-  min-width: 375px;
+  /* min-width: 375px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 43px;
   padding: 17px 16px;
   background-color: #faf9f8;
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
 }
 
 .logo {
@@ -73,7 +76,8 @@
 
 @media (min-width: 992px) {
   .header {
-    min-width: 992px;
+    width: 100%;
+    /* min-width: 992px; */
     padding: 45px 88px;
     gap: 176px;
   }
@@ -97,10 +101,14 @@
 }
 
 @media (min-width: 1366px) {
+  .header {
+    /* min-width: 1366px; */
+  }
 }
 
 @media (min-width: 1920px) {
   .header {
+    /* min-width: 1920px; */
     gap: 162px;
   }
 

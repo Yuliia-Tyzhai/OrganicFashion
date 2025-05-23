@@ -1,21 +1,83 @@
+.newCollection {
+  width: 100%;
+  background: linear-gradient(to bottom, #f1f1f1 50%, #dbdbdb 50%);
+}
+
+.title {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0 auto 34px auto;
+}
+
 .imageGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ✅ Три колонки на мобілці */
-  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   justify-content: center;
 }
 
-/* ✅ Робимо зображення адаптивними */
 .image {
   border-radius: 170px 170px 0 0;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* 🔹 Адаптивність */
-@media (max-width: 768px) {
+.description {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 62px;
+    width: 263px;
+  }
+
   .imageGrid {
-    grid-template-columns: repeat(3, 1fr); /* ✅ Три колонки на мобільних */
+    gap: 67px;
+  }
+
+  .description {
+    font-size: 32px;
+    margin-top: 47.6px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .tite {
+    margin-bottom: 104px;
+    width: 500px;
+    white-space: nowrap;
+  }
+  .imageGrid {
+    gap: 86px;
+  }
+
+  .description {
+    margin-top: 62.2px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .title {
+    font-size: 48px;
+    width: 622px;
+    margin-bottom: 149px;
+  }
+
+  .description {
+    font-size: 40px;
+    margin-top: 94.7px;
   }
 }
