@@ -61,10 +61,32 @@ const FollowUs = () => {
             <button type="submit" className={styles.submitButton}>
               Submit
             </button>
+            <picture>
+              <source
+                srcSet={`${followUsData.backgroundImages.followUsBg.largeDesktop.x1} 1x, ${followUsData.backgroundImages.followUsBg.largeDesktop.x2} 2x`}
+                media="(min-width: 1920px)"
+              />
+              <source
+                srcSet={`${followUsData.backgroundImages.followUsBg.desktop.x1} 1x, ${followUsData.backgroundImages.followUsBg.desktop.x2} 2x`}
+                media="(min-width: 1366px)"
+              />
+              <source
+                srcSet={`${followUsData.backgroundImages.followUsBg.tablet.x1} 1x, ${followUsData.backgroundImages.followUsBg.tablet.x2} 2x`}
+                media="(min-width: 992px)"
+              />
+              <source
+                srcSet={`${followUsData.backgroundImages.followUsBg.mobile.x1} 1x, ${followUsData.backgroundImages.followUsBg.mobile.x2} 2x`}
+                media="(max-width: 991px)"
+              />
+              <img
+                src={followUsData.backgroundImages.followUsBg.mobile.x1}
+                alt="Follow Us Background"
+                className={styles.backgroundImage}
+              />
+            </picture>
           </form>
         </div>
       </Container>
-      <ToastContainer />
     </section>
   );
 };

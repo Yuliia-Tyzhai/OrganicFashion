@@ -9,16 +9,42 @@
   font-size: 18px;
 }
 
-.mobileNav {
+/* .mobileNav {
   position: absolute;
   top: 60px;
-  right: 20%;
+  right: 35%;
   background: white;
   border: 1px solid #ccc;
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 70vw;
+  z-index: 9999;
+} */
+
+.mobileNav {
+  position: fixed; /* ✅ Завжди поверх всіх елементів */
+  top: 60px;
+  right: 10%;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 9999; /* ✅ Максимальний пріоритет */
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.mobileNav a:hover {
+  color: #49754f;
 }
 
 @media (min-width: 992px) {

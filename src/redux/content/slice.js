@@ -193,8 +193,8 @@ const initialState = {
         },
         {
           mobile: {
-            x1: '/src/assets/images/mob/blog-mob-img-3-min.png',
-            x2: '/src/assets/images/mob/blog-mob-img-3@2x-min.png',
+            x1: '/assets/images/mob/blog-mob-img-3-min.png',
+            x2: '/assets/images/mob/blog-mob-img-3@2x-min.png',
           },
           tablet: {
             x1: '/assets/images/tab/blog-tab-img-3-min.png',
