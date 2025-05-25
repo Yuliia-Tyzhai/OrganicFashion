@@ -87,6 +87,7 @@ const FollowUs = () => {
           </form>
         </div>
       </Container>
+      <ToastContainer />
     </section>
   );
 };
