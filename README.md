@@ -14,8 +14,8 @@ OrganicFashion 2️⃣ Install dependencies:
 
 bash npm install 3️⃣ Run the project locally:
 
-bash npm start 🌍 Deployment The project is deployed on Vercel: 🔗 View Live
-Site
+bash npm start 🌍 Deployment The project is deployed on Vercel: 🔗
+https://organic-fashion-theta.vercel.app/
 
 📌 Technologies Used 🔹 React 🔹 Redux Toolkit 🔹 React Router 🔹 Vercel
 Deployment
